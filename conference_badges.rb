@@ -4,11 +4,14 @@ def badge_maker(name)
   return "Hello, my name is #{name}."
 end 
 
-batch_badge_creator(attendees)
+batch_badge_creator(speakers)
+  speakers.collect do |name|
+    badge_maker(name)
+  end
+end 
+    
+    
 
-#end
-  #attendees.collect do |name|
- # badge_maker(name)
 
 
  
