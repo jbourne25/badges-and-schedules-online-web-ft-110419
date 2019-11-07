@@ -22,7 +22,7 @@ def assign_rooms(array)
   return nuarray
 end
 
-assign_rooms(people)
+assign_rooms()
 
 
 
