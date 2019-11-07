@@ -8,7 +8,7 @@ batch_badge_creator(speakers)
   speakers.collect do |name|
     badge_maker(name)
 end
-end 
+ 
     
     
 
