@@ -23,7 +23,8 @@ def assign_rooms(speakers)
   counter = 1
   speakers.each_line do |name|
     return "Hello,#{name}! You'll be assigned to room #{counter}"
-    counter += l 
+    counter += l
+  end
 end 
     
 
