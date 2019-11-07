@@ -3,7 +3,7 @@ speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 def badge_maker(name)
   return "Hello, my name is #{name}."
 end 
-badge_maker("Arel")
+#badge_maker("Arel")
 #batch_badge_creator(speakers)
  # speakers.collect do |name|
 #badge_maker(name)
