@@ -7,4 +7,4 @@ attendees.collect do |name|
   badge_maker(name)
   end 
 
-end  
+ 
