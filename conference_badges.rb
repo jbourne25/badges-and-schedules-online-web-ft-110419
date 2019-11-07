@@ -1,10 +1,10 @@
-def badge_maker(speaker)
-  puts "Hello, my name is #{speaker}."
+def badge_maker(name)
+  puts "Hello, my name is #{name}."
 end 
 
 batch_badge_creator(attendees)
 attendees.collect do |name|
-  badge_maker(speaker)
+  badge_maker(name)
 end 
 
  
