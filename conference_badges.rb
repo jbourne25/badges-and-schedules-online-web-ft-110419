@@ -11,6 +11,20 @@ badge_maker(name)
   end
 end 
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # def batch_badge_creator(array)
 #   nuarray = []
 #   array.each do |name|
