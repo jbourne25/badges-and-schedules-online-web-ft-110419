@@ -26,7 +26,7 @@ def assign_rooms(speakers)
     counter += l
   end
 end 
-  assign_rooms  
+  assign_rooms(speakers)  
 
 
 
