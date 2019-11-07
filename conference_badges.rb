@@ -19,6 +19,8 @@ end
 #   return nuarray
 # end 
 
+def assign_rooms(speakers, names)
+  speakers.each do |names|
     
 
 
