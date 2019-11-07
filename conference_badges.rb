@@ -21,7 +21,7 @@ end
 
 def assign_rooms(speakers)
   counter = 1
-  speakers.each_index do |name|
+  speakers.each_with_index do |name|
     return "Hello,#{name}! You'll be assigned to room #{counter}"
     counter += l
   end
