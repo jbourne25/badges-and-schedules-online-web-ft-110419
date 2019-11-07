@@ -3,6 +3,8 @@ def badge_maker(speaker)
 end 
 
 batch_badge_creator(speaker)
-conference_speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+conference_speakers.collect do |speaker|
+  puts #{speaker}
+end 
 
  
