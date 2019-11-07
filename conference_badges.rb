@@ -20,7 +20,9 @@ end
 # end 
 
 def assign_rooms(speakers)
-  speakers.each do |names|
+  counter = 1
+  speakers.each_with_index do |names|
+    return "Hello,#{name}! You'll be assigned to room"
     
 
 
